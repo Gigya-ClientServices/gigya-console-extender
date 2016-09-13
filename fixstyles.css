@@ -1,0 +1,14 @@
+div.sites_holder div.sites_list, div.commentsTable .scrollview { height: auto !important; }
+div.main_conent, div.main_wrapper div.main_content { height: auto !important; }
+div.mvc_page { height: auto !important; }
+.resultFixed { height: auto !important; }
+.resultNotFixed { width: auto !important; height: auto !important; }
+.resultTable { height: auto !important; }
+.fht_table_body { height: auto !important; }
+.noselect {
+  -moz-user-select: initial !important;
+  -khtml-user-select: initial !important;
+  -webkit-user-select: initial !important;
+  -o-user-select: initial !important;
+  user-select: initial !important;
+}
