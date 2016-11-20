@@ -1,14 +1,14 @@
 {
   	"name": "Gigya Console Extender",
-  	"version": "1.7",
+  	"version": "1.8",
   	"manifest_version": 2,
   	"description": "Automatically extends the height of Comments Category and API Keys in the Gigya Console.",
-	"permissions": [ "*://console.gigya.com/*" ],
+	"permissions": [ "tabs", "*://console.gigya.com/*" ],
 	"content_scripts": [{
 		"js": [ "jquery-1.11.1.min.js", "main.js" ],
 		"matches": [ "*://console.gigya.com/*" ]
 	}],
-	"web_accessible_resources": [ "fixstyles.css" ],
+	"web_accessible_resources": [ "fixstyles.css", "utils.js", "bootstrap.min.css", "images/*", "fonts/*" ],
 	"browser_action": {
 		"default_icon": "gigya-logo.png",
 		"default_title": "Gigya Console Extender"

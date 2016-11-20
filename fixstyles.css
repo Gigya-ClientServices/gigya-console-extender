@@ -1,14 +1,87 @@
 div.sites_holder div.sites_list, div.commentsTable .scrollview { height: auto !important; }
 div.main_conent, div.main_wrapper div.main_content { height: auto !important; }
+.value { text-decoration: none !important; font-weight: bold; font-family: monospace;}
+a > .value { text-decoration: none; font-weight: bold; font-family: monospace;}
+a:hover > .value { text-decoration: none; font-weight: bold; font-family: monospace; }
+span.column_value { width: auto !important; }
+p.api_key_holder { width: auto !important; }
+div.actions, div.plugin_headline_holder, div.all_plugins,
+div.headline_section.rounded, div.quick_links_holder,
+div.footerCenter.gig-helper-clearfix, li.divider, li > a#Plugins { display: none !important; }
+div.holder_button_site { vertical-align: middle !important; }
+.header, .main-nav-container, .main_wrapper, .shadow_bottom, .footerWrapper{ width: 90% !important; min-width: 1000px !important;}
+.main_content { width: auto !important; min-height: auto !important; }
+.main_wrapper { min-height: auto !important; }
+div.gig-tooltip-holder > input[type="text"] { background-color: #f0f6fb; color: #000; }
+.commonPage { padding: 0px !important; }
+div.gig-tooltip div.gig-tooltip-holder { width: 255px !important; }
+div.gig-tooltip-btn { margin-top: 0px !important; }
+div.main_wrapper div.main_content { padding-top: 1px !important; }
+div.content_dashboard { width: auto !important; }
+#userNameMenuTrigger > div {
+  width: auto !important;
+}
+.gig-tooltip .secret { display: none; }
 div.mvc_page { height: auto !important; }
 .resultFixed { height: auto !important; }
 .resultNotFixed { width: auto !important; height: auto !important; }
 .resultTable { height: auto !important; }
 .fht_table_body { height: auto !important; }
+.main-nav { margin-bottom: 0px !important; }
+div.right_content_holder { padding: 3px 3px 3px 10px !important; width: auto !important; }
+div.left_menu_holder { padding: 17px 17px 3px 3px !important; }
 .noselect {
   -moz-user-select: initial !important;
   -khtml-user-select: initial !important;
   -webkit-user-select: initial !important;
   -o-user-select: initial !important;
   user-select: initial !important;
+}
+
+.walkme-custom-balloon-outer-div, .walkme-custom-balloon-arrow {
+  display: none !important;
+}
+
+.sites_list {
+  padding: 0px 3px 0px 3px !important;
+  overflow: hidden !important;
+}
+
+.site-row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.site-row-url {
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.site-row-desc {
+  padding-left: 10px;
+}
+
+.site-row-dc {
+  text-align: center;
+}
+
+.site-row-site-id {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.home_icon_holder {
+  width: 56px !important;
+}
+
+ul.main-nav li a.home_icon {
+  height: 24px !important;
+  width: auto !important;
+  margin-top: 3px;
+}
+
+body {
+  background-color: #f0f6fb !important;
+  padding: 5px;
 }
