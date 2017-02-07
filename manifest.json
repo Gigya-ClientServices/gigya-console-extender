@@ -5,7 +5,7 @@
   	"description": "Automatically extends the height of Comments Category and API Keys in the Gigya Console.",
 	"permissions": [ "tabs", "*://console.gigya.com/*" ],
 	"content_scripts": [{
-		"js": [ "jquery-1.11.1.min.js", "main.js" ],
+		"js": [ "jquery-1.11.1.min.js", "core.js", "main.js" ],
 		"matches": [ "*://console.gigya.com/*" ]
 	}],
 	"web_accessible_resources": [ "fixstyles.css", "utils.js", "bootstrap.min.css", "images/*", "fonts/*" ],

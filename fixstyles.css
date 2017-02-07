@@ -42,6 +42,22 @@ div.left_menu_holder { padding: 17px 17px 3px 3px !important; }
   display: none !important;
 }
 
+
+.sites_holder .sites_list {
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  border-left: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+}
+
+.inner-site-list {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px;
+  border-bottom: 1px;
+}
+
 .sites_list {
   padding: 0px 3px 0px 3px !important;
   overflow: hidden !important;
